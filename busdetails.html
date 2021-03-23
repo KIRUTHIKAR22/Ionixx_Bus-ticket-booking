@@ -1,0 +1,35 @@
+<html>
+    <head><title>Admin Page</title></head>
+    <body bgcolor="green" text="yellow">
+        <h2>Admin Details</h2>
+        <form action="busdetails.php" method="POST">
+            <table cellpadding="5px">
+            <tr>
+               <td><label>Busname:</label></td>
+                <td><input type="text" name="busname" autocomplete="OFF" required></td>
+            </tr>
+            <tr>
+                <td><label>From:</label></td>
+                <td><input type="text" name="froom" autocomplete="OFF" required></td>
+            </tr>
+            <tr>
+                <td><label>To:</label></td>
+                 <td><input type="text" name="too" autocomplete="OFF" required></td>
+             </tr>
+             <tr>
+                <td><label>Total Seat:</label></td>
+                 <td><input type="number" name="seat" autocomplete="OFF" required></td>
+             </tr>
+             <tr>
+                <td><label>Price:</label></td>
+                 <td><input type="number" name="price" autocomplete="OFF" required></td>
+             </tr>
+            <tr>
+            <div class="reg">
+                <td><input type="submit" name="register" value="Register"></td>
+            </div>
+            </tr>
+            </table>
+        </form>
+    </body>
+</html>
